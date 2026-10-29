@@ -64,23 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Shaarli is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+Shaarli is an open‑source, self‑hosted bookmarking service that lets users store, tag, and share web links. Designed for personal use, it is minimalist, fast, and requires no database, using flat‑file storage instead. The project provides a web interface, a public demo instance, and a REST API for programmatic access. It is written in PHP, released under the MIT license, and can be deployed via Docker or traditional web servers. The community maintains documentation on Read the Docs and offers a client library ecosystem.
 
-**Areas:** Company
+**Areas:** Bookmarking · Self-hosted · Open-source · PHP · Minimalist
 
 ## Shaarli on APIs.io
 
 Everything profiled for Shaarli is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/shaarli/](https://apis.io/providers/shaarli/)** — or go straight to one of the APIs or properties below.
 
+### APIs (2)
+
+- [Shaarli API](https://apis.io/apis/shaarli/shaarli-api-2/) — REST API for the Shaarli bookmarking service.
+- [Shaarli API](https://apis.io/apis/shaarli/shaarli-api/) — Shaarli API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-10-28); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Shaarli API Rules](https://apis.io/rules/shaarli/shaarli-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Shaarli Authentication](https://apis.io/security/shaarli/shaarli-authentication/)
+- [Shaarli Domain Security](https://apis.io/security/shaarli/shaarli-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Shaarli Scopes](https://apis.io/scopes/shaarli/shaarli-scopes/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://github.com/shaarli/Shaarli)
+- [Website](https://demo.shaarli.org)
+- [Documentation](https://shaarli.readthedocs.io)
+- [Getting started](https://shaarli.readthedocs.io/en/latest/Installation.html)
+- [API reference](https://shaarli.readthedocs.io/en/latest/REST-API.html)
+- [Support](https://github.com/shaarli/Shaarli/issues)
+- [GitHub](https://github.com/shaarli)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/shaarli/](https://apis.io/providers/shaarli/).
+**Kin Score 39.8** — developing · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 33.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 13.2 |
+
+**Agent readiness 23.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 26.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/shaarli/](https://apis.io/providers/shaarli/).
 
 ## How this profile is made
 
